@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind-CSS Project</title>
+
+  <!-- Google Fonts Link Start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+  <!-- Google Fonts Link End -->
+
+  <!-- CSS Link Start -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- CSS Link End -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <script src="js/tailwindmain.js"></script> -->
+
+</head>
+
+<body>
+  <!-- Header Part Start -->
+  <div class="bg-headerColor py-5">
+    <div class="max-w-headerContainer mx-auto">
+      <div class="flex">
+        <div class="w-[15%]">
+          <picture>
+            <img src="images/Logo.png" alt="Logo.png" loading="lazy" />
+          </picture>
+        </div>
+        <div class="w-[70%]">
+          <ul class="flex justify-center pt-4">
+            <li><a href="#" class="px-5 text-white font-ops font-semibold text-base hover:text-btnColor">Home <i
+                  class="fa-solid fa-chevron-down text-[10px] px-1"></i></a></li>
+            <li><a href="#" class="px-5 text-white font-ops font-semibold text-base hover:text-btnColor">About <i
+                  class="fa-solid fa-chevron-down text-[10px] px-1"></i></a></li>
+            <li><a href="#" class="px-5 text-white font-ops font-semibold text-base hover:text-btnColor">Service <i
+                  class="fa-solid fa-chevron-down text-[10px] px-1"></i></a></li>
+            <li><a href="#" class="px-5 text-white font-ops font-semibold text-base hover:text-btnColor">Portfolio <i
+                  class="fa-solid fa-chevron-down text-[10px] px-1"></i></a></li>
+            <li><a href="#" class="px-5 text-white font-ops font-semibold text-base hover:text-btnColor">Price <i
+                  class="fa-solid fa-chevron-down text-[10px] px-1"></i></a></li>
+            <li><a href="#" class="px-5 text-white font-ops font-semibold text-base hover:text-btnColor">Blog <i
+                  class="fa-solid fa-chevron-down text-[10px] px-1"></i></a></li>
+          </ul>
+        </div>
+        <div class="w-[15%]">
+          <a href="#"
+            class="py-5 px-11 bg-btnColor rounded-full inline-block text-white font-ops font-semibold text-lg">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Part End -->
+
+  <!-- Banner Part Start -->
+  <div class="bg-bannerImage bg-no-repeat bg-cover bg-center">
+    <div class="bg-bannerColor pt-[270px] pb-[250px]">
+      <div class="max-w-bannerContainer mx-auto">
+        <div class="text-center">
+          <h1 class="text-htColor font-ops font-bold capitalize text-[76px]">You're Unique.your Website Should Be Too
+          </h1>
+          <p class="text-ptColor font-pap font-normal capitalize text-2xl px-[110px]">A beautiful website passionately
+            crafted
+            for
+            your small business. Our Digital Agency development has
+            changed the way
+            brands and businesses use technology for growing business.</p>
+          <a href="#"
+            class="py-5 px-11 bg-btnColor rounded-full inline-block text-white font-ops font-semibold text-lg hover:border-btnColor mr-5 mt-5 hover:border-2 hover:bg-transparent">Get
+            Free
+            Quoto</a>
+          <a href="#"
+            class="py-5 px-11 bg-btnColor rounded-full inline-block text-white font-ops font-semibold text-lg hover:border-btnColor mt-5 hover:border-2 hover:bg-transparent">Learn
+            More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner Part End -->
+
+  <!-- Card Part Start -->
+  <div class="bg-bannerImagetwo bg-no-repeat bg-cover bg-center">
+    <div class="max-w-headerContainer mx-auto pb-[100px]">
+      <div class="flex justify-between">
+        <div class="w-[270px]">
+          <picture>
+            <img src="images/cartimg1.png" alt="cartimg1.png">
+          </picture>
+        </div>
+        <div class="w-[200px]">
+          <picture>
+            <img src="images/cartimg2.png" alt="cartimg2.png">
+          </picture>
+        </div>
+        <div class="w-[340px]">
+          <picture>
+            <img src="images/cartimg3.png" alt="cartimg3.png">
+          </picture>
+        </div>
+        <div class="w-[270px]">
+          <picture>
+            <img src="images/cartimg4.png" alt="cartimg4.png">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-counterContainer mx-auto pb-24">
+      <div class="flex justify-center justify-between">
+        <div
+          class="w-[280px] text-center relative after:absolute after:h-[132px] after:w-[2px] after:content-[' '] after:bg-afterColor after:top-0 after:right-0 after:rounded-full">
+          <h3 class="font-ops text-[64px] font-extrabold text-btnColor">53k</h3>
+          <p class="font-ops text-4xl font-bold text-cptColor ">
+            Happy Client</p>
+        </div>
+        <div
+          class="w-[280px] text-center relative after:absolute after:h-[132px] after:w-[2px] after:content-[' '] after:bg-afterColor after:top-0 after:right-0 after:rounded-full">
+          <h3 class="font-ops text-[64px] font-extrabold text-btnColor">10k</h3>
+          <p class="font-ops text-4xl font-bold text-cptColor ">
+            Projects Done</p>
+        </div>
+        <div
+          class="w-[280px] text-center relative after:absolute after:h-[132px] after:w-[2px] after:content-[' '] after:bg-afterColor after:top-0 after:right-0 after:rounded-full">
+          <h3 class="font-ops text-[64px] font-extrabold text-btnColor">120</h3>
+          <p class="font-ops text-4xl font-bold text-cptColor ">
+            Gets Award</p>
+        </div>
+        <div class="w-[280px] text-center">
+          <h3 class="font-ops text-[64px] font-extrabold text-btnColor">16</h3>
+          <p class="font-ops text-4xl font-bold text-cptColor ">
+            Operated Years</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Card Part End -->
+
+  <!-- Choose Part Start -->
+  <div class="bg-bannerImagethree bg-no-repeat bg-center bg-cover py-[100px]">
+    <div class="max-w-chooseContainer mx-auto">
+      <div class="flex">
+        <div class="w-[568px]">
+          <div class="flex mb-[25px] py-[20px] pl-[30px]  hover:bg-white hover:rounded-lg hover:drop-shadow-2xl">
+            <div class="w-[38px] mr-5">
+              <img src="images/choice-icon.png" alt="choice-icon.png">
+            </div>
+            <div class="w-[320px] font-pap text-lg font-normal text-wcuColor">
+              <p>We solve real-world problems through people and the web.</p>
+            </div>
+          </div>
+          <div class="flex mb-[25px] py-[20px] pl-[30px]  hover:bg-white hover:rounded-lg hover:drop-shadow-2xl">
+            <div class="w-[38px] mr-5">
+              <img src="images/choice-icon.png" alt="choice-icon.png">
+            </div>
+            <div class="w-[336px] font-pap text-lg font-normal text-wcuColor">
+              <p>We make processes and technology work efficiently together.</p>
+            </div>
+          </div>
+          <div class="flex mb-[25px] py-[20px] pl-[30px]  hover:bg-white hover:rounded-lg hover:drop-shadow-2xl">
+            <div class="w-[38px] mr-5">
+              <img src="images/choice-icon.png" alt="choice-icon.png">
+            </div>
+            <div class="w-[320px] font-pap text-lg font-normal text-wcuColor">
+              <p>We advance improve existing technology through research and development.</p>
+            </div>
+          </div>
+          <div class="flex mb-[25px] py-[20px] pl-[30px]  hover:bg-white hover:rounded-lg hover:drop-shadow-2xl">
+            <div class="w-[38px] mr-5">
+              <img src="images/choice-icon.png" alt="choice-icon.png">
+            </div>
+            <div class="w-[320px] font-pap text-lg font-normal text-wcuColor">
+              <p>We develop long-lasting and scalable solutions, relationships partnerships.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[573px] pl-[88px] flex justify-end">
+          <div>
+            <h3 class="font-ops text-5xl font-bold text-cptColor">Why Choose Us</h3>
+            <p class="font-pap text-lg font-normal text-wcuColor pt-5 pb-11">We are now a team of strategists,
+              engineers,
+              designers, and marketers who both use and develop technology
+              for a variety
+              of client needs.</p>
+            <a href="#"
+              class="py-5 px-10 bg-btnColor rounded-full inline-block text-white font-ops font-bold text-xl">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Choose Part End -->
+
+  <!-- Work Part Start -->
+  <div class="bg-workColor py-[100px]">
+    <div class="max-w-headerContainer mx-auto">
+      <div class="flex">
+        <div class="w-[350px] pl-7">
+          <div>
+            <h3 class="font-ops text-5xl font-bold text-cptColor">What We Do</h3>
+            <p class="font-ops text-lg font-normal text-wopColor pt-5 pb-11">We are now a team of strategists,
+              engineers,
+              designers, and marketers who both use and develop technology</p>
+            <a href="#"
+              class="py-5 px-10 bg-btnColor rounded-full inline-block text-white font-ops font-bold text-xl">Contact</a>
+          </div>
+        </div>
+        <div class="w-[370px] ml-12 rounded-lg bg-white text-center group hover:bg-wophColor rounded-full">
+          <div class="p-12">
+            <div class="flex justify-center pb-[30px]">
+              <img class="w-[64px] pt-11" src="images/workimg1.png" alt="workimg1.png">
+            </div>
+            <h3 class="font-ops text-3xl font-bold text-cptColor pb-[30px] group-hover:text-htColor">web Design & Dev
+            </h3>
+            <p class="text-wcuColor font-pap text-lg font-normal pb-[18px] group-hover:text-ptColor">Social Media has
+              changed
+              the way we interact
+              &
+              do
+              business while creating</p>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full  group-hover:text-wopphColor  after:group-hover:bg-woahColor"
+              href="#">Read more</a>
+          </div>
+        </div>
+        <div class="w-[370px] ml-7 rounded-lg bg-white text-center group hover:bg-wophColor rounded-full">
+          <div class="p-12">
+            <div class="flex justify-center pb-[30px]">
+              <img class="w-[64px] pt-11" src="images/workimg2.png" alt="workimg2.png">
+            </div>
+            <h3 class="font-ops text-3xl font-bold text-cptColor pb-[30px] group-hover:text-htColor">Software Dev
+            </h3>
+            <p class="text-wcuColor font-pap text-lg font-normal pb-[18px] group-hover:text-ptColor">Content Marketing
+              is the other fold of online advertisement. If you are looking to build</p>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full  group-hover:text-wopphColor  after:group-hover:bg-woahColor"
+              href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="w-[370px] mt-7 rounded-lg bg-white text-center group hover:bg-wophColor rounded-full">
+          <div class="p-12">
+            <div class="flex justify-center pb-[30px]">
+              <img class="w-[64px] pt-11" src="images/workimg3.png" alt="workimg3.png">
+            </div>
+            <h3 class="font-ops text-3xl font-bold text-cptColor pb-[30px] group-hover:text-htColor">Content Writing
+            </h3>
+            <p class="text-wcuColor font-pap text-lg font-normal pb-[18px] group-hover:text-ptColor">Social Media has
+              changed the way we interact & do business while creating a new avenue.</p>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full  group-hover:text-wopphColor  after:group-hover:bg-woahColor"
+              href="#">Read more</a>
+          </div>
+        </div>
+        <div class="w-[370px] ml-7 mt-7 rounded-lg bg-white text-center group hover:bg-wophColor rounded-full">
+          <div class="p-12">
+            <div class="flex justify-center pb-[30px]">
+              <img class="w-[64px] pt-11" src="images/workimg4.png" alt="workimg4.png">
+            </div>
+            <h3 class="font-ops text-3xl font-bold text-cptColor pb-[30px] group-hover:text-htColor">Digital Marketing
+            </h3>
+            <p class="text-wcuColor font-pap text-lg font-normal pb-[18px] group-hover:text-ptColor">Social Media has
+              changed the way we interact & do business while creating a new avenue.</p>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full  group-hover:text-wopphColor  after:group-hover:bg-woahColor"
+              href="#">Read more</a>
+          </div>
+        </div>
+        <div class="w-[370px] ml-7 mt-7 rounded-lg bg-white text-center group hover:bg-wophColor rounded-full">
+          <div class="p-11">
+            <div class="flex justify-center pb-[30px]">
+              <img class="w-[64px] pt-11" src="images/workimg5.png" alt="workimg5.png">
+            </div>
+            <h3 class="font-ops text-3xl font-bold text-cptColor pb-[30px] group-hover:text-htColor">Support & Training
+            </h3>
+            <p class="text-wcuColor font-pap text-lg font-normal pb-[18px] group-hover:text-ptColor">Content Marketing
+              is the other fold of online advertisement. If you are looking to build</p>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full  group-hover:text-wopphColor  after:group-hover:bg-woahColor"
+              href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Work Part End -->
+
+  <!-- Research Part Start -->
+  <div class="bg-bannerImagefour py-[100px]">
+    <div class="max-w-researchContainer mx-auto text-center">
+      <h3 class="font-ops text-5xl font-bold text-cptColor">We create real impact</h3>
+      <p class="font-pap text-lg font-normal text-wcuColor pt-5 pb-11">We design, build and support websites and
+        apps
+        for clients worldwide. Create beautiful, eye-catching on-page messages
+        without the need for a developer.</p>
+    </div>
+    <div class="max-w-headerContainer mx-auto">
+      <div class="flex">
+        <div>
+          <div class="flex mb-[25px] py-[20px] pl-[30px]">
+            <div class="w-[63px] mr-5">
+              <img src="images/researchimg1.png" alt="researchimg1.png">
+            </div>
+            <div class="w-[346px]">
+              <h3 class="font-ops text-3xl font-bold text-cptColor pb-6">Competitive analysis</h3>
+              <p class="font-pap text-lg font-normal text-wcuColor">With an all-new look and powerful features,
+                Ekko is the best way to ensure success for your business.</p>
+            </div>
+          </div>
+          <div class="flex mb-[25px] py-[20px] pl-[30px]">
+            <div class="w-[63px] mr-5">
+              <img src="images/researchimg2.png" alt="researchimg2.png">
+            </div>
+            <div class="w-[346px]">
+              <h3 class="font-ops text-3xl font-bold text-cptColor pb-6">Strategy And research</h3>
+              <p class="font-pap text-lg font-normal text-wcuColor">Save money and start building your website using the
+                best tools available on the market today.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[520px] ml-36 relative">
+          <div class="flex">
+            <div class="w-[227px] pt-5">
+              <img src="images/researchpartimg1.png" alt="researchpartimg1.png">
+            </div>
+            <div class="w-[161px] pl-7">
+              <img src="images/researchpartimg2.png" alt="researchpartimg2.png">
+            </div>
+          </div>
+          <div class="w-[310px] absolute top-[135px] left-48">
+            <img src="images/researchpartimg3.png" alt="researchpartimg3.png">
+          </div>
+          <div class="w-[130px] absolute top-[40px] left-[355px]">
+            <img src="images/researchpartimg4.png" alt="researchpartimg4.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Research Part End -->
+
+  <!-- Plan Select Part Start -->
+  <div class="bg-counterColor py-[100px]">
+    <div class="font-ops font-bold text-5xl text-cptColor flex justify-center">
+      <h3 class="w-[531px]">Choose The Right Plan</h3>
+    </div>
+    <div class="max-w-headerContainer mx-auto">
+      <div class="flex justify-center">
+        <div class="w-[30%] bg-white drop-shadow-sm rounded-lg py-16 mt-16 group hover:bg-wophColor">
+          <div class="text-center font-ops font-bold text-3xl text-cptColor group-hover:text-htColor pb-6">
+            <h3>Basic</h3>
+          </div>
+          <div class="py-[1px] bg-plnsColor">
+            <img class="h-[170px]" src="images/cplanimg1.png" alt="cplanimg1.png">
+          </div>
+          <div class="font-nun font-extrabold text-5xl text-btnColor py-6 pb-6">
+            <h4 class="text-center"><sup><span class="font-quick font-medium text-2xl">&#36</span></sup>160
+            </h4>
+          </div>
+          <div
+            class="flex justify-center text-center font-pap font-normal text-lg text-wcuColor px-[75px] group-hover:text-ptColor">
+            <p class="w-[252px]">Responsive Design
+              Dynamic Elements
+              Service Pages
+              Custom Design & Features</p>
+          </div>
+        </div>
+        <div class="w-[30%] bg-white drop-shadow-sm rounded-lg py-16 mt-16 ml-[30px] group hover:bg-wophColor">
+          <div class="text-center font-ops font-bold text-3xl text-cptColor group-hover:text-htColor pb-6">
+            <h3>Professional</h3>
+          </div>
+          <div class="py-[1px] bg-plnsColor">
+            <img class="h-[170px]" src="images/cplanimg2.png" alt="cplanimg2.png">
+          </div>
+          <div class="font-nun font-extrabold text-5xl text-btnColor py-6 pb-6">
+            <h4 class="text-center"><sup><span class="font-quick font-medium text-2xl">&#36</span></sup>240
+            </h4>
+          </div>
+          <div
+            class="flex justify-center text-center font-pap font-normal text-lg text-wcuColor px-[75px] group-hover:text-ptColor">
+            <p class="w-[252px]">Responsive Design
+              Dynamic Elements
+              Service Pages
+              Custom Design & Features</p>
+          </div>
+        </div>
+        <div class="w-[30%] bg-white drop-shadow-sm rounded-lg py-16 mt-16 ml-[30px] group hover:bg-wophColor">
+          <div class="text-center font-ops font-bold text-3xl text-cptColor group-hover:text-htColor pb-6">
+            <h3>Exclusive</h3>
+          </div>
+          <div class="py-[1px] bg-plnsColor">
+            <img class="h-[170px]" src="images/cplanimg3.png" alt="cplanimg3.png">
+          </div>
+          <div class="font-nun font-extrabold text-5xl text-btnColor py-6 pb-6">
+            <h4 class="text-center"><sup><span class="font-quick font-medium text-2xl">&#36</span></sup>325
+            </h4>
+          </div>
+          <div
+            class="flex justify-center text-center font-pap font-normal text-lg text-wcuColor px-[75px] group-hover:text-ptColor">
+            <p class="w-[252px]">Responsive Design
+              Dynamic Elements
+              Service Pages
+              Custom Design & Features</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Plan Select Part End -->
+
+  <!-- About Part Start -->
+  <div class="bg-aboutColor py-[100px]">
+    <div class="max-w-abouthtContainer mx-auto">
+      <h3 class="text-center font-ops font-bold text-5xl text-cptColor">What The People Thinks About Us</h3>
+    </div>
+    <div class="max-w-counterContainer mx-auto pt-20 drop-shadow-2xl">
+      <div class="flex">
+        <div class="w-16 h-16 mt-72">
+          <div><i class="fa-solid fa-chevron-left text-white bg-btnColor rounded-full p-5"></i></div>
+        </div>
+        <div class="max-w-bannerContainer mx-auto bg-white mt-16 relative rounded-lg">
+          <div class="flex justify-center absolute top-[-70px] left-[405px]">
+            <img class="h-[147px] w-[147px] rounded-full" src="images/aboutimg1.png" alt="aboutimg1.png">
+          </div>
+          <div class="text-aboutsiColor pt-[120px] pb-[45px] flex justify-center">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <div>
+            <p class="font-pap font-normal text-2xl text-wcuColor px-12 text-center">Lesser Replenish bearing they're
+              him
+              cattle kind
+              dominion. You
+              which fill place. Land she'd subdue divided gathering blessed
+              seasons it. Without, wherein days.</p>
+            <h3 class="font-ops font-bold text-2xl text-aboutphColor text-center pt-16 pb-3.5">Lukan Depina</h3>
+            <h5 class="font-pap font-normal text-base text-wcuColor text-center pb-[60px]">Ceo And Head Of Idea</h5>
+          </div>
+        </div>
+        <div class="w-16 h-16 mt-72 pl-3">
+          <div><i class="fa-solid fa-chevron-right text-white bg-btnColor rounded-full p-5"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Part End -->
+
+  <!-- optional similar Part Start -->
+  <div class="bg-bannerImagefive bg-no-repeat bg-center bg-cover py-[100px]">
+    <div class="max-w-bannerContainer mx-auto">
+      <div class="mb-[60px] ml-11">
+        <h3 class="w-[416px] font-ops font-bold text-opsimColor text-4xl">You May Also Like</h3>
+      </div>
+      <div class="flex justify-center">
+        <div class="w-[379px]">
+          <img class="rounded-2xl" src="images/opsimimg1.png" alt="opsimimg1.png">
+        </div>
+        <div class="w-[504px] pl-20">
+          <div class="flex">
+            <div>
+              <p class="font-bold font-quick text-base text-btnColor">News</p>
+            </div>
+            <div class=" ">
+              <p class="font-medium font-quick text-base text-wcuColor pl-[35px]">By</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-2">Tomas Nikelson</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-[24px]">Posted</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-3">5 Hours Ago</p>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold font-ops text-[23px] pt-[30px] pb-[22px] text-cptColor">Punto Pago Allows Quick And
+              Secure
+              Payments For Services In Panama</h4>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full "
+              href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-[60px]">
+        <div class="w-[379px]">
+          <img class="rounded-2xl" src="images/opsimimg1.png" alt="opsimimg1.png">
+        </div>
+        <div class="w-[504px] pl-20">
+          <div class="flex">
+            <div>
+              <p class="font-bold font-quick text-base text-btnColor">News</p>
+            </div>
+            <div class=" ">
+              <p class="font-medium font-quick text-base text-wcuColor pl-[35px]">By</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-2">Tomas Nikelson</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-[24px]">Posted</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-3">5 Hours Ago</p>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold font-ops text-[23px] pt-[30px] pb-[22px] text-cptColor">The User Can Also Replenish A
+              Balance
+              Make Remittances</h4>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full "
+              href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-[60px]">
+        <div class="w-[379px]">
+          <img class="rounded-2xl" src="images/opsimimg1.png" alt="opsimimg1.png">
+        </div>
+        <div class="w-[504px] pl-20">
+          <div class="flex">
+            <div>
+              <p class="font-bold font-quick text-base text-btnColor">News</p>
+            </div>
+            <div class=" ">
+              <p class="font-medium font-quick text-base text-wcuColor pl-[35px]">By</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-2">Tomas Nikelson</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-[24px]">Posted</p>
+            </div>
+            <div>
+              <p class="font-medium font-quick text-base text-wcuColor pl-3">5 Hours Ago</p>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold font-ops text-[23px] pt-[30px] pb-[22px] text-cptColor">The User Can Also Replenish A
+              Balance
+              Make Remittances</h4>
+            <a class="font-ops text-lg font-bold text-cptColor relative after:absolute after:h-9 after:w-6 after:content-[' '] after:bg-workafternColor after:top-[-3px] after:right-[-7px] after:rounded-e-full "
+              href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- optional similar Part End -->
+
+  <!-- Footer Part Start -->
+  <div class="bg-footerColor pt-[100px] pb-[55px]">
+    <div class="max-w-counterContainer mx-auto">
+      <div class="flex justify-center">
+        <div class="w-[450px]">
+          <div class="footer_logo">
+            <img class="w-[135px]" src="images/Logo.png" alt="Logo.png">
+          </div>
+          <div class="pt-[50px]">
+            <p class="font-nun font-normal text-lg text-footertpColor">Install any demo or template with a single click.
+              You can mix and match all the demos & templates. Every
+              demo can be turned into one or multi-page.</p>
+          </div>
+        </div>
+        <div class="w-[102px] ml-[90px]">
+          <div class="footer_head_t">
+            <h5 class="font-ops font-semibold text-2xl text-footertpColor">Features</h5>
+          </div>
+          <div class="pt-[50px]">
+            <p class="font-nun font-normal text-lg text-footertpColor pb-[35px]">Home</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">About</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Benifit</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Pricing</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Blog</p>
+          </div>
+        </div>
+        <div class="w-[167px] ml-[90px]">
+          <div class="footer_head_t">
+            <h5 class="font-ops font-semibold text-2xl text-footertpColor">Products</h5>
+          </div>
+          <div class="pt-[50px]">
+            <p class="font-nun font-normal text-lg text-footertpColor pb-[35px]">Task Management</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Company Growth</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Time Tracking</p>
+          </div>
+        </div>
+        <div class="w-[160px] ml-[90px]">
+          <div class="footer_head_t">
+            <h5 class="font-ops font-semibold text-2xl text-footertpColor">Support</h5>
+          </div>
+          <div class="pt-[50px]">
+            <p class="font-nun font-normal text-lg text-footertpColor pb-[35px]">Customer service</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Accessibility</p>
+            <p class="font-nun font-normal text-lg text-footertpColor  pb-[35px]">Contact us</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-counterContainer mx-auto pt-[80px]">
+        <div class="flex">
+          <div class="w-[315px]">
+            <h6 class="font-nun font-normal text-lg text-footertpColor">@20201 Innovate.All Rights Reserved.</h6>
+          </div>
+          <div class="w-[111px] ml-[535px]">
+            <h6 class="font-nun font-normal text-lg text-footertpColor">Privacy policy</h6>
+          </div>
+          <div class="w-[149px] ml-[60px]">
+            <h6 class="font-nun font-normal text-lg text-footertpColor">Terms & condition</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Part End -->
+
+  <script src="js/tailwind.config.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+bg-teal-500
+bg = background
+teal = color name
+500 = color density
+-->
